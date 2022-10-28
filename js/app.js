@@ -1,4 +1,4 @@
-fetch('http://localhost:8080/api/blogs')
+fetch('https://fb-rest-server-node.herokuapp.com/api/blogs')
     .then(resp => resp.json())
     .then(resp_data => {
 
