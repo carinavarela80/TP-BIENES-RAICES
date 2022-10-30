@@ -37,66 +37,64 @@
         <!--Contenedor-->
     </header>
 
-    <h1 class="fw-300 centrar-texto">Contacto</h1>
-    <img src="img/destacada3.jpg" alt="Imagen Contacto">
+    <div class="oferta">
 
-    <main class="contenedor seccion contenido-centrado">
-        <h2 class="fw-300 centrar-texto"> Llenar Formulario de Contacto</h2>
+        <h1 class="fw-300 centrar-texto">Contacto</h1>
+        <img src="img/destacada3.jpg" alt="Imagen Contacto">
 
-        <form action="">
+    </div>
 
-            <fieldset>
-                <legend>Información Personal</legend>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" placeholder="Tu nombre">
+    <main class="contenedor seccion contenido-centrado div-main-contacto">
+        <div class="formulario">
+            <h2 class="fw-300 centrar-texto"> Llenar Formulario de Contacto</h2>
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder="Tu correo electronico" required>
+            <form action="">
 
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" placeholder="Tu teléfono" required>
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre">
 
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" cols="30" rows="10"></textarea>
-            </fieldset>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Tu correo electronico" required>
 
-            <fieldset>
-                <legend>Información Sobre Propiedad</legend>
-                <label for="opciones">Vende o Compra</label>
-                <select id="opciones">
-                <option value="" disabled selected>--Seleccione--</option>
-                <option value="Compra">Compra</option>
-                <option value="vende">Vende</option>
-            </select>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Tu teléfono" required>
 
-                <label for="cantidad">Cantidad</label>
-                <input type="number" min="0" max="100" step="5">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" cols="30" rows="10"></textarea>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
+                    <legend>Información Sobre Propiedad</legend>
+                    <label for="opciones">Vende o Compra</label>
+                    <select id="opciones">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="Compra">Compra</option>
+                    <option value="vende">Vende</option>
+                </select>
 
-            <fieldset>
-                <legend>Contacto</legend>
-                <p>Como Desea Ser Contactado</p>
+                </fieldset>
 
-                <div class="forma-contacto">
-                    <label for="telefono">TELEFONO</label>
-                    <input type="radio" name="contacto" value="telefono" id="telefono">
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <p>Como Desea Ser Contactado</p>
 
-                    <label for="email">E-MAIL</label>
-                    <input type="radio" name="contacto" value="correo" id="email">
-                </div>
+                    <div class="forma-contacto">
+                        <label for="telefono">TELEFONO</label>
+                        <input type="radio" name="contacto" value="telefono" id="telefono">
 
-                <p>Si eligió Teléfono, elija fecha y hora</p>
-                <label for="fecha">Fecha:</label>
-                <input type="date" id="fecha">
+                        <label for="email">E-MAIL</label>
+                        <input type="radio" name="contacto" value="correo" id="email">
+                    </div>
 
-                <label for="hora">Hora:</label>
-                <input type="time" id="hora" min="9:00" max="18:00">
-            </fieldset>
+                </fieldset>
 
-            <input type="submit" value="Enviar" class="boton boton-verde">
+                <input type="submit" value="Enviar" class="boton boton-verde">
 
-        </form>
+            </form>
+
+        </div>
 
     </main>
 
@@ -108,7 +106,7 @@
                 <a href="blog.html">Blog</a>
                 <a href="contacto.html">Contacto</a>
             </nav>
-            <p class="copyrigh">Todos los Derechos Reservados 2020 &copy </p>
+            <p class="copyrigh">Todos los Derechos Reservados 2022 &copy </p>
         </div>
     </footer>
 </body>

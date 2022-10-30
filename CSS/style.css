@@ -63,7 +63,7 @@ h4 {
 }
 
 .d-bock {
-    display: block!important;
+    display: block !important;
 }
 
 .contenido-centrado {
@@ -107,6 +107,11 @@ h4 {
 
 .boton-verde {
     background-color: rgb(39, 170, 39);
+}
+
+.wizad-siguiente p {
+    color: white;
+    margin: auto;
 }
 
 
@@ -176,6 +181,7 @@ h4 {
         font-size: 1.8rem;
         margin-right: 2rem;
     }
+
     .navegacion a:last-of-type {
         margin: 0;
     }
@@ -303,6 +309,19 @@ h3 {
 
 /** Contacto Home **/
 
+.div-main-contacto {
+    
+    margin: 1rem;
+    padding: 1rem;
+    
+    position: relative;
+    margin: 0 auto;   
+
+    width:90rem;
+    height:80rem;
+    
+}
+
 .imagen-contacto {
     background-image: url(../img/encuentra.jpg);
     background-position: center center;
@@ -311,6 +330,28 @@ h3 {
     display: flex;
     align-items: center;
 }
+
+.div-main {
+  
+    position: relative;
+    margin: 0 auto;   
+
+    width:90rem;
+    height:70rem;
+    
+}
+
+.formulario {
+    
+    display: block;
+    position: absolute;
+    top: -20rem;
+    width: 100%;
+    padding: 0 5rem;
+    background-color: white;
+    
+}
+
 
 .contenido-contacto {
     flex: 0 0 95%;
@@ -329,9 +370,11 @@ h3 {
         display: flex;
         justify-content: space-between;
     }
+
     .seccion-inferior .blog {
         flex-basis: 60%;
     }
+
     .seccion-inferior .testimoniales {
         flex-basis: calc(90% - 2rem);
     }
@@ -356,6 +399,7 @@ h3 {
     .entrada-blog .imagen {
         flex-basis: 40%;
     }
+
     .entrada-blog .texto-entrada {
         flex-basis: calc(60% - 3rem);
     }
@@ -539,4 +583,11 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Contacto Oferta */
+
+#wizard2,  
+#wizardsubmit {
+    display: none;
 }
