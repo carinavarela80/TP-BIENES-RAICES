@@ -9,7 +9,7 @@ fetch('https://fb-rest-server-node.herokuapp.com/api/blogs')
             const articulo = `
                     <article class="entrada-blog">
                         <div class="imagen">
-                            <img src="${element.imgUrl}" alt="Entrada de blog">
+                            <img src="${element.imgUrl}" alt="Entrada de blog" loading="lazy" />
                         </div>
                         <div class="texto-entrada">
                             <a href="entrada.html">

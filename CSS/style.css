@@ -352,6 +352,15 @@ h3 {
     
 }
 
+.warning {
+    
+    display: none;
+}
+.warning p {
+    color: red;
+    font-weight: bold;
+}
+
 
 .contenido-contacto {
     flex: 0 0 95%;
@@ -584,6 +593,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
 }
+
 
 /* Contacto Oferta */
 

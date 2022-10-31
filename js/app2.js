@@ -9,7 +9,7 @@ fetch('https://fb-rest-server-node.herokuapp.com/api/inmuebles')
                     const articulo = `
                     
                         <div class="anuncio">
-                            <img src="${element.imgUrl}" alt="Anuncio Casa en el Lago">
+                            <img src="${element.imgUrl}" alt="Anuncio Casa en el Lago" loading="lazi">
                             <div class="contenido-anuncio">
                                 <h3>${element.title}</h3>
                                 <p>${element.description}</p>

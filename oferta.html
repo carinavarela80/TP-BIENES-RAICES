@@ -45,7 +45,7 @@
     </div>
 
 
-    <main class="contenedor seccion contenido-centrado div-main" style="">
+    <main class="contenedor seccion contenido-centrado div-main">
         <div class="formulario">
             <h2 class="fw-300 centrar-texto"> Llenar Formulario</h2>
 
@@ -53,26 +53,28 @@
                 <div id="wizard1">
                     <fieldset>
                         <legend>Información Personal</legend>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" placeholder="Tu nombre" required>
+                        <label for="nombre">*Nombre:</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre">
 
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" placeholder="Tu apellido" required>
+                        <label for="apellido">*Apellido:</label>
+                        <input type="text" id="apellido" placeholder="Tu apellido">
 
-                        <label for="dni">DNI:</label>
-                        <input type="number" id="dni" placeholder="Tu DNI" required>
+                        <label for="dni">*DNI:</label>
+                        <input type="number" id="dni" placeholder="Tu DNI">
 
-                        <label for="nacionalidad">Nacionalidad:</label>
-                        <input type="text" id="nacionalidad" placeholder="Tu nacionalidad" required>
+                        <label for="nacionalidad">*Nacionalidad:</label>
+                        <input type="text" id="nacionalidad" placeholder="Tu nacionalidad">
 
-                        <label for="estadocivil">Estado Civil:</label>
-                        <input type="text" id="estadocivil" placeholder="Tu estado civil" required>
+                        <label for="estadocivil">*Estado Civil:</label>
+                        <input type="text" id="estadocivil" placeholder="Tu estado civil">
 
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" placeholder="Tu correo electronico" required>
+                        <label for="email">*E-mail:</label>
+                        <input type="email" id="email" placeholder="Tu correo electronico">
 
-                        <label for="telefono">Teléfono:</label>
-                        <input type="tel" id="telefono" placeholder="Tu teléfono" required>
+                        <label for="telefono">*Teléfono:</label>
+                        <input type="tel" id="telefono" placeholder="Tu teléfono">
+
+                        <div class="warning"><p>Todos los campos son obligatorios.</p></div>
 
                         <div id="btnWz1" class="wizad-siguiente boton boton-verde">
                             <p>Siguiente</p>
@@ -86,7 +88,7 @@
                     <fieldset>
                         <legend>Oferta de Compra</legend>
 
-                        <label for="oferta">Oferta de Compra:</label>
+                        <label for="oferta">*Oferta de Compra:</label>
                         <input type="number" id="oferta" placeholder="Tu oferta" required>
 
                         <label for="mensaje">Mensaje al Propietario (Opcional)</label>

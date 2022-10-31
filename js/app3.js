@@ -11,6 +11,8 @@ const nombre = document.getElementById("nombre");
 
         const botonimprimir = document.getElementById("wizardsubmit");
 
+        const warning = document.querySelector(".warning");
+
         const btnWz1 = document.getElementById("btnWz1");
         btnWz1.onclick = function () {
 
@@ -53,6 +55,10 @@ const nombre = document.getElementById("nombre");
 
                 botonimprimir.style.display = "block";
 
+            } else {
+                
+                warning.style.display = "block";
+
             }
 
         }
@@ -74,14 +80,15 @@ const nombre = document.getElementById("nombre");
                 const estadocivilV = estadocivil.value;
                 const emailV = email.value;
                 const telefonoV = telefono.value;
+                const ocultar = document.getElementById("ocultar");
+                const divfooter = document.getElementById("divfooter");
 
                 wizard1.style.display = "block";
                 btnWz1.style.display = "none";
-                const ocultar = document.getElementById("ocultar");
                 ocultar.style.display = "none";
                 botonimprimir.style.display = "none";
-                const divfooter = document.getElementById("divfooter");
                 divfooter.style.display = "none";
+                warning.style.display = "none";
 
                 window.print();
 
